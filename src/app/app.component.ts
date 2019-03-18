@@ -1,6 +1,7 @@
 import { Component, OnChanges, SimpleChanges, OnInit } from '@angular/core';
 import { GridDataResult, PageChangeEvent } from '@progress/kendo-angular-grid';
 import * as _ from 'lodash';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -24,6 +25,15 @@ export class AppComponent implements OnInit, OnChanges {
   gridData: GridDataResult;
   skip = 0;
   pageSize = 5;
+
+  constructor(translate: TranslateService) {
+    translate.addLangs(['en']);
+    translate.setDefaultLang('en');
+
+    const browserLanguage = translate.getBrowserLang();
+
+    translate.use(browserLanguage.match(/en/) ? browserLanguage : 'en');
+  }
 
   ngOnInit(): void {
     this.loadData();
