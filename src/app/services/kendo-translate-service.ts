@@ -2,12 +2,11 @@ import { MessageService } from '@progress/kendo-angular-l10n';
 import { Injectable } from '@angular/core';
 
 const messages = {
-    'kendo.grid.noRecords': 'Nothing to see here.',
-    'User Welcome': 'ABC'
+    'kendo.grid.noRecords': 'Nothing to see here.'
 };
 
 @Injectable()
-export class TranslateMessageService extends MessageService {
+export class KendoTranslateService extends MessageService {
     public get(key: string): string {
         return messages[key];
     }

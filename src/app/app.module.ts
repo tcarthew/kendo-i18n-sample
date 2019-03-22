@@ -4,18 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { GridModule } from '@progress/kendo-angular-grid';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { TranslateMessageService } from './services/translate-message-service';
+import { KendoTranslateService } from './services/kendo-translate-service';
 import { MessageService } from '@progress/kendo-angular-l10n';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader'
 import { HttpClient } from '@angular/common/http';
-import { TranslationService } from './services/translate-service-loader';
+import { TerminologyTranslateServiceLoader } from './services/terminology-translate-service-loader';
 import { HttpClientModule } from '@angular/common/http';
-
-// export function HttpLoaderFactory(httpClient: HttpClient) {
-
-//   return new TranslateHttpLoader(httpClient, 'http://localhost:3000/data/', 'data.json')
-// }
 
 @NgModule({
   declarations: [
@@ -29,14 +24,13 @@ import { HttpClientModule } from '@angular/common/http';
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
-        useClass: TranslationService,
-        // useFactory: HttpLoaderFactory,
+        useClass: TerminologyTranslateServiceLoader,
         deps: [HttpClient]
       }
     })
   ],
   providers: [
-    { provide: MessageService, useClass: TranslateMessageService }
+    { provide: MessageService, useClass: KendoTranslateService }
   ],
   bootstrap: [AppComponent]
 })

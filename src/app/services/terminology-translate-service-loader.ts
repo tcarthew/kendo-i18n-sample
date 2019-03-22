@@ -5,7 +5,7 @@ import { TranslateLoader } from '@ngx-translate/core';
 import { switchMap, map, withLatestFrom, filter } from 'rxjs/operators';
 
 @Injectable()
-export class TranslationService implements TranslateLoader {
+export class TerminologyTranslateServiceLoader implements TranslateLoader {
 
     constructor(private http: HttpClient) { }
 
