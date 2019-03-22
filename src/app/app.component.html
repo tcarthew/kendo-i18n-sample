@@ -1,23 +1,18 @@
 <h1 i18n="user.welcome|An introduction header for this sample">Hello World Default</h1>
-<p>red is {{ 'red' | translate }}</p>
-<kendo-grid
-  [data]="gridData"
-  [pageable]="true"
-  [pageSize]="pageSize"
-  [skip]="skip"
-  (pageChange)="pageChange($event)">
+<p>Greeting is {{ 'greetings.three' | translate }}</p>
+<kendo-grid [data]="gridData" [pageable]="true" [pageSize]="pageSize" [skip]="skip" (pageChange)="pageChange($event)">
 
   <kendo-grid-column field="Id" title="Id"></kendo-grid-column>
   <kendo-grid-column field="Name" title="Name"></kendo-grid-column>
   <kendo-grid-column field="Description" title="Description"></kendo-grid-column>
 
   <ng-template kendoPagerTemplate let-totalPages="totalPages" let-currentPage="currentPage">
-      <kendo-pager-info></kendo-pager-info>  
-      <div class="wrap">
-        <kendo-pager-prev-buttons></kendo-pager-prev-buttons>
-        <kendo-pager-input></kendo-pager-input>
-        <kendo-pager-next-buttons></kendo-pager-next-buttons>
-      </div>
-      <kendo-pager-page-sizes [pageSizes]="[5, 10, 20]"></kendo-pager-page-sizes> 
-    </ng-template>
+    <kendo-pager-info></kendo-pager-info>
+    <div class="wrap">
+      <kendo-pager-prev-buttons></kendo-pager-prev-buttons>
+      <kendo-pager-input></kendo-pager-input>
+      <kendo-pager-next-buttons></kendo-pager-next-buttons>
+    </div>
+    <kendo-pager-page-sizes [pageSizes]="[5, 10, 20]"></kendo-pager-page-sizes>
+  </ng-template>
 </kendo-grid>

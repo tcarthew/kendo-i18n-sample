@@ -1,0 +1,9 @@
+{
+    "translations": {
+        "greetings": {
+            "one": "hello",
+            "two": "hallo",
+            "three": "molo"
+        }
+    }
+}
