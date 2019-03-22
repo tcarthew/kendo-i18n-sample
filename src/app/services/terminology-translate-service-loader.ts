@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs/Observable';
 import { TranslateLoader } from '@ngx-translate/core';
-import { switchMap, map, withLatestFrom, filter } from 'rxjs/operators';
+import { map } from 'rxjs/operators';
 
 @Injectable()
 export class TerminologyTranslateServiceLoader implements TranslateLoader {
