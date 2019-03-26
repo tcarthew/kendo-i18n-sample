@@ -1,0 +1,340 @@
+{
+    "terminology": [
+        {
+            "standardTerm": "Owner",
+            "localTerm": "Owner"
+        },
+        {
+            "standardTerm": "Owners",
+            "localTerm": "Owners"
+        },
+        {
+            "standardTerm": "Owners Corporation",
+            "localTerm": "Owners Corporation"
+        },
+        {
+            "standardTerm": "Owners Corporations",
+            "localTerm": "Owners Corporations"
+        },
+        {
+            "standardTerm": "Strata Ledger Trial Balance",
+            "localTerm": "Strata Ledger Trial Balance"
+        },
+        {
+            "standardTerm": "Trust Ledger Trial Balance",
+            "localTerm": "Trust Ledger Trial Balance"
+        },
+        {
+            "standardTerm": "Chart of Accounts",
+            "localTerm": "Chart of Accounts"
+        },
+        {
+            "standardTerm": "Strata Ledger",
+            "localTerm": "Strata Ledger"
+        },
+        {
+            "standardTerm": "Bank Deposit Summary",
+            "localTerm": "Bank Deposit Summary"
+        },
+        {
+            "standardTerm": "Bank Deposit Detail",
+            "localTerm": "Bank Deposit Detail"
+        },
+        {
+            "standardTerm": "Owner Ledger",
+            "localTerm": "Owner Ledger"
+        },
+        {
+            "standardTerm": "Strata Bank Balances",
+            "localTerm": "Strata Bank Balances"
+        },
+        {
+            "standardTerm": "Strata Bank Details",
+            "localTerm": "Strata Bank Details"
+        },
+        {
+            "standardTerm": "Cash Payments",
+            "localTerm": "Cash Payments"
+        },
+        {
+            "standardTerm": "Strata Roll",
+            "localTerm": "Strata Roll"
+        },
+        {
+            "standardTerm": "Statement of Financial Position",
+            "localTerm": "Balance Sheet"
+        },
+        {
+            "standardTerm": "Statement of Financial Performance",
+            "localTerm": "Income & Expense Statement"
+        },
+        {
+            "standardTerm": "Budget",
+            "localTerm": "Budget"
+        },
+        {
+            "standardTerm": "Asset Replacement Budget",
+            "localTerm": "Asset Replacement Budget"
+        },
+        {
+            "standardTerm": "Levy Schedule",
+            "localTerm": "Levy Schedule"
+        },
+        {
+            "standardTerm": "Levy Positions",
+            "localTerm": "Levy Positions"
+        },
+        {
+            "standardTerm": "Non-Levy Income",
+            "localTerm": "Non-Levy Income"
+        },
+        {
+            "standardTerm": "Expenditure",
+            "localTerm": "Expenditure"
+        },
+        {
+            "standardTerm": "Insurance",
+            "localTerm": "Insurance"
+        },
+        {
+            "standardTerm": "Outstanding Creditors",
+            "localTerm": "Outstanding Creditors"
+        },
+        {
+            "standardTerm": "Labels",
+            "localTerm": "Labels"
+        },
+        {
+            "standardTerm": "Status Certificate",
+            "localTerm": "Section 109"
+        },
+        {
+            "standardTerm": "Management Fees Statistics",
+            "localTerm": "Management Fees Statistics"
+        },
+        {
+            "standardTerm": "GST",
+            "localTerm": "GST"
+        },
+        {
+            "standardTerm": "Bank Reconciliation Summary",
+            "localTerm": "Bank Reconciliation Summary"
+        },
+        {
+            "standardTerm": "Journal",
+            "localTerm": "Journal"
+        },
+        {
+            "standardTerm": "Receipt",
+            "localTerm": "Trust Account Receipt"
+        },
+        {
+            "standardTerm": "Asset Register",
+            "localTerm": "Asset Register"
+        },
+        {
+            "standardTerm": "Trust Ledger Transactions",
+            "localTerm": "Trust Ledger Transactions"
+        },
+        {
+            "standardTerm": "Receipt Report",
+            "localTerm": "Receipts"
+        },
+        {
+            "standardTerm": "Work Order",
+            "localTerm": "Work Order"
+        },
+        {
+            "standardTerm": "General Ledger Account",
+            "localTerm": "General Ledger Account"
+        },
+        {
+            "standardTerm": "Outstanding Invoices",
+            "localTerm": "Outstanding Invoices"
+        },
+        {
+            "standardTerm": "12 Months Statement of Revenue And Expenses",
+            "localTerm": "12 Month Statement of Revenue & Expenses"
+        },
+        {
+            "standardTerm": "Owner List",
+            "localTerm": "Owner List"
+        },
+        {
+            "standardTerm": "Expenditure By Account",
+            "localTerm": "Expenditure By Account"
+        },
+        {
+            "standardTerm": "Trust Account Payments",
+            "localTerm": "Trust Account Payments"
+        },
+        {
+            "standardTerm": "Trust Account Receipts",
+            "localTerm": "Trust Account Receipts"
+        },
+        {
+            "standardTerm": "Receipt Cancellation Advice",
+            "localTerm": "Receipt Cancellation Advice"
+        },
+        {
+            "standardTerm": "Trust Ledger Account",
+            "localTerm": "Trust Ledger Account"
+        },
+        {
+            "standardTerm": "Detailed Expenses",
+            "localTerm": "Detailed Expenses"
+        },
+        {
+            "standardTerm": "Cash Management",
+            "localTerm": "Cash Management"
+        },
+        {
+            "standardTerm": "GST Detail",
+            "localTerm": "GST Detail"
+        },
+        {
+            "standardTerm": "Investments",
+            "localTerm": "Investments"
+        },
+        {
+            "standardTerm": "Levies Due",
+            "localTerm": "Levies Due"
+        },
+        {
+            "standardTerm": "Outstanding Owner Invoices",
+            "localTerm": "Outstanding Owner Invoices"
+        },
+        {
+            "standardTerm": "Unpresented Withdrawals",
+            "localTerm": "Unpresented Withdrawals"
+        },
+        {
+            "standardTerm": "Outstanding Deposits",
+            "localTerm": "Outstanding Deposits"
+        },
+        {
+            "standardTerm": "Executive Committees",
+            "localTerm": "Strata Committees"
+        },
+        {
+            "standardTerm": "Abridged Financial Position",
+            "localTerm": "Abridged Financial Position"
+        },
+        {
+            "standardTerm": "Trust Ledger Journal",
+            "localTerm": "Trust Ledger Journal"
+        },
+        {
+            "standardTerm": "Detailed Revenue",
+            "localTerm": "Detailed Revenue"
+        },
+        {
+            "standardTerm": "Trust Account Cashflow",
+            "localTerm": "Trust Account Cashflow"
+        },
+        {
+            "standardTerm": "Levy Posting",
+            "localTerm": "Levy Posting"
+        },
+        {
+            "standardTerm": "Notice of Levies",
+            "localTerm": "Notice of Levies"
+        },
+        {
+            "standardTerm": "Diary Notes",
+            "localTerm": "Diary Notes"
+        },
+        {
+            "standardTerm": "Aged Arrears List",
+            "localTerm": "Aged Arrears List"
+        },
+        {
+            "standardTerm": "Debt Recovery",
+            "localTerm": "Debt Recovery"
+        },
+        {
+            "standardTerm": "Debt Recovery History",
+            "localTerm": "Debt Recovery History"
+        },
+        {
+            "standardTerm": "Meeting Attendance Register",
+            "localTerm": "Meeting Attendance Register"
+        },
+        {
+            "standardTerm": "Detailed Arrears",
+            "localTerm": "Detailed Arrears"
+        },
+        {
+            "standardTerm": "Current Owner Account",
+            "localTerm": "Current Owner Account"
+        },
+        {
+            "standardTerm": "Annual Standard Management Fee",
+            "localTerm": "Annual Standard Management Fee"
+        },
+        {
+            "standardTerm": "Management Fees",
+            "localTerm": "Management Fees"
+        },
+        {
+            "standardTerm": "Additional Debtor Balance",
+            "localTerm": "Additional Debtor Balance"
+        },
+        {
+            "standardTerm": "Voting Register",
+            "localTerm": "Voting Register"
+        },
+        {
+            "standardTerm": "Invoices Due",
+            "localTerm": "Invoices Due"
+        },
+        {
+            "standardTerm": "Annual Notice of Levies",
+            "localTerm": "Annual Notice of Levies"
+        },
+        {
+            "standardTerm": "Income Tax",
+            "localTerm": "Income Tax"
+        },
+        {
+            "standardTerm": "Investment Reconciliation Summary",
+            "localTerm": "Investment Reconciliation Summary"
+        },
+        {
+            "standardTerm": "Statement of Key Financial Information",
+            "localTerm": "Statement of Key Financial Information"
+        },
+        {
+            "standardTerm": "Delegated Functions Report",
+            "localTerm": "Delegated Functions Report"
+        },
+        {
+            "standardTerm": "Committee Meeting Attendance Report",
+            "localTerm": "Strata Committees Meeting Attendance"
+        },
+        {
+            "standardTerm": "Statement of Financial Position - Group",
+            "localTerm": "Statement of Financial Position - Group"
+        },
+        {
+            "standardTerm": "Budget - Group",
+            "localTerm": "Budget - Group"
+        },
+        {
+            "standardTerm": "Cash Management - Group",
+            "localTerm": "Cash Management - Group"
+        },
+        {
+            "standardTerm": "Detailed Expenses - Group",
+            "localTerm": "Detailed Expenses - Group"
+        },
+        {
+            "standardTerm": "Statement of Financial Performance - Group",
+            "localTerm": "Statement of Financial Performance - Group"
+        },
+        {
+            "standardTerm": "Levy Schedule - Group",
+            "localTerm": "Levy Schedule - Group"
+        }
+    ]
+}

@@ -12,15 +12,20 @@ export class TerminologyTranslateServiceLoader implements TranslateLoader {
     getTranslation(language: string): Observable<any> {
         // the url below, in the portal app, should point to an api call
         // which returns the Terminology model
-        return this.http.get(`http://localhost:3000/translations`)
+        return this.http.get(`http://localhost:3000/terminology`)
             .pipe(map(
-                (response: any) => {
+                (terminology: { "standardTerm": string, "localTerm": string }[]) => {
                     // ignore nore the language passed in as in our app it does not matter
                     // the translation is not by language, but just different names required
                     // by different agencies.
-                    console.log(response);
-                    console.log('key: ', language);
-                    return response;
+                    var terms = {};
+
+                    terminology.forEach(element => {
+                        terms[element.standardTerm.replace(/\s/g, '_')] = element.localTerm;
+                    });
+
+                    console.log(terms);
+                    return terms;
                 }
             ));
     }
